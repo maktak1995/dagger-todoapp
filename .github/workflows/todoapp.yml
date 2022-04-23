@@ -28,6 +28,7 @@ jobs:
           # To pin external dependencies, you can use `project update github.com/[package-source]@v[n]`
           cmds: |
             project update
+            do test
             do deploy
         env:
           # Get one from https://app.netlify.com/user/applications/personal

@@ -3,7 +3,6 @@ import React, { useState } from "react";
 function Form(props) {
   const [name, setName] = useState('');
 
-
   function handleSubmit(e) {
     e.preventDefault();
     if (!name.trim()) {
