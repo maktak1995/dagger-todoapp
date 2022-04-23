@@ -9,8 +9,8 @@ on:
 # Dagger plan gets configured via client environment variables
 env:
   # This needs to be unique across all of netlify.app
-  APP_NAME: todoapp-dagger-europa
-  NETLIFY_TEAM: dagger
+  APP_NAME: todoapp-dagger-nakameguro
+  NETLIFY_TEAM: maktak1995
 
 jobs:
   dagger:
